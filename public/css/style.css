@@ -1,0 +1,306 @@
+h1 {
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 2.0rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 1.6rem;
+    font-weight:700;
+}
+h2 {
+    font-size: 1.2rem;
+    color: #400101;
+    padding-top: 1.8rem;
+    padding-left: 2.0rem;
+    padding-bottom: 0;
+    line-height: 0.5rem;
+}
+
+p {
+    line-height: 1.8rem;
+    color: rgba(0, 0, 0, 0.78)
+}
+
+
+img {
+    max-width: 100%;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+/* --------------------------------------
+  Header
+-------------------------------------- */
+.header-logo {
+    margin-top: 0.6rem;
+    margin-left: 1.0rem;
+}
+.inner-header {
+    display: flex;
+    flex-direction: row;
+    z-index: 2;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.0rem;
+}
+header li{
+    display: flex;
+    margin-right: 1.5rem;
+    color: rgba(0, 0, 0, 0.78);
+}
+.header-logo {
+    margin-top: 0.6rem;
+}
+
+/* --------------------------------------
+   main - common
+-------------------------------------- */
+ul {
+    margin: 0;
+    list-style: none;
+}
+li {
+    color: #163ec3;
+}
+
+/* --------------------------------------
+   main - home
+-------------------------------------- */
+.home-image {
+    width: 100%;
+
+    animation: fadeInAnime;
+    animation-fill-mode: forwards;
+    animation-duration: 2s;
+    opacity: 0;
+}
+@keyframes fadeInAnime {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+.home-content {
+    width:60%;
+    color:black;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+}
+/* --------------------------------------
+   main - offices
+-------------------------------------- */
+.officelist ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.officelist li {
+    margin-right: 3.5rem;
+
+}
+.officeName {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 3.0rem;
+    margin-bottom: 0.1rem;
+}
+.officeName::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #df1288;
+}
+.address {
+    font-size: 12px;
+    line-height:21px;
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+.detail {
+    font-size: 12px;
+    line-height:21px;
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+
+.officelist img {
+    width:250px;
+}
+/* --------------------------------------
+   main - plan
+-------------------------------------- */
+.planlist ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.planlist li {
+    margin-right: 3.5rem;
+
+}
+.planname {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 3.0rem;
+    margin-bottom: 0.1rem;
+}
+.planname::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid rgba(246, 138, 70, 0.8);
+}
+.explain {
+    font-size: 12px;
+    line-height:21px;
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+
+.planlist img {
+    width:250px;
+}
+.planlist a {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    width: 4.5rem;
+    margin-left: 1.0rem;
+    background-color: rgba(246, 138, 70, 0.8);
+}
+.planlist a:hover {
+    background-color: rgba(245, 54, 29, 0.8);
+}
+.planlist {
+    margin-bottom: 3.0rem;
+}
+
+/* --------------------------------------
+   main - service
+-------------------------------------- */
+.service-p {
+    margin-left: 2.0rem;
+}
+.servicelist ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+.servicelist li {
+    margin-right: 3.5rem;
+
+}
+.servicename {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 3.0rem;
+    margin-bottom: 0.1rem;
+}
+.servicename::before {
+    content: "";
+    padding-right: 10px;
+    border-left: 7px solid #076d14;
+}
+.explain2 {
+    font-size: 12px;
+    line-height:21px;
+    width: 300px;
+    margin-bottom: 1.5rem;
+}
+
+.servicelist img {
+    width:250px;
+}
+/* --------------------------------------
+   main - login
+-------------------------------------- */
+
+.book-login ul {
+    display: flex;
+    flex-direction: row;
+}
+.book-login li {
+    margin-right: 1.5rem;
+}
+.book-login-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 5.0rem;
+    margin-bottom: 2.0rem;
+    font-weight: bold;
+}
+.book-logout {
+    display: block;
+    flex-direction: row;
+    text-align: right;
+    margin-right: 5.0rem;
+    font-weight: bold;
+}
+table {
+    align-items: center;
+}
+#login_error {
+    color: #df1288;
+    font-weight: bold;
+    margin-left: 2.0rem;
+}
+/* --------------------------------------
+   main - booking
+-------------------------------------- */
+.book-form {
+    padding-left: 2.0rem;
+}
+.bookRow {
+    line-height:2.0rem;
+}
+.book-select {
+    font-size: 1.0rem;
+    display: block;
+}
+.office-date {
+    color: #df1288;
+}
+.office-date-table {
+    padding-left: 2.0rem;
+    line-height: 2.0rem;
+}
+.order-list {
+    padding-left: 3.0rem;
+}
+
+/* --------------------------------------
+   footer
+-------------------------------------- */
+footer {
+    background-color: #c8c8c8;
+    width: 100%;
+}
+.footer-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+footer p {
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.footer ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.0rem;
+}
+.footer li{
+    display: flex;
+    margin-right: 1.5rem;
+    color: rgba(0, 0, 0, 0.78);
+}
+.footer-logo {
+    margin-top: 0.5rem;
+    margin-left: 1.0rem;
+}
+
