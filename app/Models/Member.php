@@ -5,6 +5,7 @@ namespace App\Models;
 use http\Env\Request;
 use Illuminate\Database\Eloquent\Model;
 
+//会員データベースモデル
 class Member extends Model
 {
     protected $guarded = array('id');

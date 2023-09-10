@@ -8,6 +8,7 @@ use http\Env\Response;
 use Illuminate\Http\Request;
 use IlluminateSessionSessionManager;
 
+//会員データベース操作
 class MemberController extends Controller
 {
     public function index(Request $request)

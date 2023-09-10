@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
 
+//予約データベースモデル
 class Order extends Model
 {
             //↓created_at and updated_atを自動で処理させる。

@@ -6,6 +6,7 @@ use App\Models\Order;
 use Illuminate\Http\Request;
 use http\Env\Response;
 
+//予約データベース操作
 class OrderController extends Controller
 {
 

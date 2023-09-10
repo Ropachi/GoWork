@@ -20,6 +20,7 @@ function checkLogin(): array
     return $data ;
 }
 
+//view操作
 class HelloController extends Controller {
 
     public function index(){
